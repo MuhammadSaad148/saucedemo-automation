@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + TypeScript end-to-end checkout test for SauceDemo",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6"
+  }
+}
